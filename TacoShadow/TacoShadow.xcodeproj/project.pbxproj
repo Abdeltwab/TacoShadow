@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B85868962C11F24E00C8A6BE /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B85868952C11F24E00C8A6BE /* Gilroy-Medium.ttf */; };
+		B858689A2C11F27000C8A6BE /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85868992C11F27000C8A6BE /* AppFont.swift */; };
+		B858689E2C11F60300C8A6BE /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B858689D2C11F60300C8A6BE /* Color.xcassets */; };
+		B85868A02C11F66100C8A6BE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B858689F2C11F66100C8A6BE /* AppColor.swift */; };
 		B85C66792C11AA0400801DFC /* TacoShadowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66782C11AA0400801DFC /* TacoShadowApp.swift */; };
 		B85C667B2C11AA0400801DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C667A2C11AA0400801DFC /* ContentView.swift */; };
-		B85C667D2C11AA0500801DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85C667C2C11AA0500801DFC /* Assets.xcassets */; };
+		B85C667D2C11AA0500801DFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85C667C2C11AA0500801DFC /* Images.xcassets */; };
 		B85C66802C11AA0500801DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85C667F2C11AA0500801DFC /* Preview Assets.xcassets */; };
 		B85C668A2C11AA0500801DFC /* TacoShadowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66892C11AA0500801DFC /* TacoShadowTests.swift */; };
 		B85C66942C11AA0500801DFC /* TacoShadowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66932C11AA0500801DFC /* TacoShadowUITests.swift */; };
 		B85C66962C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66952C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift */; };
+		B8FA770E2C11EB1800A5090E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA770D2C11EB1800A5090E /* OnboardingView.swift */; };
+		B8FA77102C11ECC100A5090E /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA770F2C11ECC100A5090E /* AppImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B85868952C11F24E00C8A6BE /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		B85868992C11F27000C8A6BE /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		B858689B2C11F2A500C8A6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B858689D2C11F60300C8A6BE /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		B858689F2C11F66100C8A6BE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		B85C66752C11AA0400801DFC /* TacoShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C66782C11AA0400801DFC /* TacoShadowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowApp.swift; sourceTree = "<group>"; };
 		B85C667A2C11AA0400801DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B85C667C2C11AA0500801DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B85C667C2C11AA0500801DFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B85C667F2C11AA0500801DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B85C66852C11AA0500801DFC /* TacoShadowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoShadowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C66892C11AA0500801DFC /* TacoShadowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowTests.swift; sourceTree = "<group>"; };
 		B85C668F2C11AA0500801DFC /* TacoShadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoShadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C66932C11AA0500801DFC /* TacoShadowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowUITests.swift; sourceTree = "<group>"; };
 		B85C66952C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8FA770D2C11EB1800A5090E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B8FA770F2C11ECC100A5090E /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85868972C11F25300C8A6BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B85868982C11F25D00C8A6BE /* FontsFiles */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B85868982C11F25D00C8A6BE /* FontsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B85868992C11F27000C8A6BE /* AppFont.swift */,
+				B85868952C11F24E00C8A6BE /* Gilroy-Medium.ttf */,
+			);
+			path = FontsFiles;
+			sourceTree = "<group>";
+		};
+		B858689C2C11F5E500C8A6BE /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				B858689F2C11F66100C8A6BE /* AppColor.swift */,
+				B858689D2C11F60300C8A6BE /* Color.xcassets */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
 		B85C666C2C11AA0400801DFC = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +133,11 @@
 		B85C66772C11AA0400801DFC /* TacoShadow */ = {
 			isa = PBXGroup;
 			children = (
-				B85C66782C11AA0400801DFC /* TacoShadowApp.swift */,
-				B85C667A2C11AA0400801DFC /* ContentView.swift */,
-				B85C667C2C11AA0500801DFC /* Assets.xcassets */,
+				B858689B2C11F2A500C8A6BE /* Info.plist */,
+				B8FA77052C11E98600A5090E /* Presentation */,
+				B8FA77062C11E99100A5090E /* Domain */,
+				B8FA77072C11E99500A5090E /* Data */,
+				B8FA77082C11E9A800A5090E /* Supporting */,
 				B85C667E2C11AA0500801DFC /* Preview Content */,
 			);
 			path = TacoShadow;
@@ -125,6 +166,73 @@
 				B85C66952C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift */,
 			);
 			path = TacoShadowUITests;
+			sourceTree = "<group>";
+		};
+		B8FA77052C11E98600A5090E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B8FA770A2C11EA1D00A5090E /* Moduels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B8FA77062C11E99100A5090E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B8FA77072C11E99500A5090E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B8FA77082C11E9A800A5090E /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B858689C2C11F5E500C8A6BE /* Color */,
+				B85868972C11F25300C8A6BE /* Fonts */,
+				B8FA77092C11E9FB00A5090E /* Images */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B8FA77092C11E9FB00A5090E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B8FA770F2C11ECC100A5090E /* AppImage.swift */,
+				B85C667C2C11AA0500801DFC /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B8FA770A2C11EA1D00A5090E /* Moduels */ = {
+			isa = PBXGroup;
+			children = (
+				B8FA770B2C11EA2F00A5090E /* Root */,
+				B8FA770C2C11EA4900A5090E /* Onboarding */,
+			);
+			path = Moduels;
+			sourceTree = "<group>";
+		};
+		B8FA770B2C11EA2F00A5090E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B85C66782C11AA0400801DFC /* TacoShadowApp.swift */,
+				B85C667A2C11AA0400801DFC /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B8FA770C2C11EA4900A5090E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B8FA770D2C11EB1800A5090E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B85C66802C11AA0500801DFC /* Preview Assets.xcassets in Resources */,
-				B85C667D2C11AA0500801DFC /* Assets.xcassets in Resources */,
+				B858689E2C11F60300C8A6BE /* Color.xcassets in Resources */,
+				B85868962C11F24E00C8A6BE /* Gilroy-Medium.ttf in Resources */,
+				B85C667D2C11AA0500801DFC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +367,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8FA770E2C11EB1800A5090E /* OnboardingView.swift in Sources */,
+				B858689A2C11F27000C8A6BE /* AppFont.swift in Sources */,
+				B8FA77102C11ECC100A5090E /* AppImage.swift in Sources */,
 				B85C667B2C11AA0400801DFC /* ContentView.swift in Sources */,
 				B85C66792C11AA0400801DFC /* TacoShadowApp.swift in Sources */,
+				B85868A02C11F66100C8A6BE /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +539,7 @@
 				DEVELOPMENT_TEAM = QB47SURCBJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TacoShadow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +569,7 @@
 				DEVELOPMENT_TEAM = QB47SURCBJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TacoShadow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
