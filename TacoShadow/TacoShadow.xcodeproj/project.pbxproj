@@ -18,6 +18,8 @@
 		B85C668A2C11AA0500801DFC /* TacoShadowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66892C11AA0500801DFC /* TacoShadowTests.swift */; };
 		B85C66942C11AA0500801DFC /* TacoShadowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66932C11AA0500801DFC /* TacoShadowUITests.swift */; };
 		B85C66962C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C66952C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift */; };
+		B864698C2C1DFAFC005F27C1 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B864698B2C1DFAFC005F27C1 /* OnboardingView2.swift */; };
+		B864698E2C1DFC7B005F27C1 /* OnboardingView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B864698D2C1DFC7B005F27C1 /* OnboardingView3.swift */; };
 		B8FA770E2C11EB1800A5090E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA770D2C11EB1800A5090E /* OnboardingView.swift */; };
 		B8FA77102C11ECC100A5090E /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FA770F2C11ECC100A5090E /* AppImage.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,8 @@
 		B85C668F2C11AA0500801DFC /* TacoShadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacoShadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85C66932C11AA0500801DFC /* TacoShadowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowUITests.swift; sourceTree = "<group>"; };
 		B85C66952C11AA0500801DFC /* TacoShadowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacoShadowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B864698B2C1DFAFC005F27C1 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
+		B864698D2C1DFC7B005F27C1 /* OnboardingView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView3.swift; sourceTree = "<group>"; };
 		B8FA770D2C11EB1800A5090E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B8FA770F2C11ECC100A5090E /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				B8FA770D2C11EB1800A5090E /* OnboardingView.swift */,
+				B864698B2C1DFAFC005F27C1 /* OnboardingView2.swift */,
+				B864698D2C1DFC7B005F27C1 /* OnboardingView3.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -368,10 +374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8FA770E2C11EB1800A5090E /* OnboardingView.swift in Sources */,
+				B864698E2C1DFC7B005F27C1 /* OnboardingView3.swift in Sources */,
 				B858689A2C11F27000C8A6BE /* AppFont.swift in Sources */,
 				B8FA77102C11ECC100A5090E /* AppImage.swift in Sources */,
 				B85C667B2C11AA0400801DFC /* ContentView.swift in Sources */,
 				B85C66792C11AA0400801DFC /* TacoShadowApp.swift in Sources */,
+				B864698C2C1DFAFC005F27C1 /* OnboardingView2.swift in Sources */,
 				B85868A02C11F66100C8A6BE /* AppColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

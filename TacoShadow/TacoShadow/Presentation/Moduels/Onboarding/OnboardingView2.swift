@@ -1,18 +1,27 @@
+//
+//  OnboardingView2.swift
+//  TacoShadow
+//
+//  Created by abdeltwab mohamed abdeltwab elhussin on 15/06/2024.
+//
+
 import SwiftUI
 
-struct OnboardingView: View {
+struct OnboardingView2: View {
     var body: some View {
-        
         
         NavigationView{
             
             ZStack {
-                Image(AppImage.onboardingBg1.rawValue)
+                Image(AppImage.onboardingBg2.rawValue)
                     .resizable()
                     .ignoresSafeArea()
                 
                 LinearGradient(
-                    gradient: Gradient(colors: [Color.black.opacity(0.6), Color.clear, Color.clear, Color.black.opacity(0.6)]),
+                            gradient: Gradient(colors: [
+                                Color.black.opacity(0.1),
+                                Color.black.opacity(0.3)
+                            ]),
                             startPoint: .top,
                             endPoint: .bottom
                         )
@@ -30,18 +39,18 @@ struct OnboardingView: View {
                     
                     VStack{
                         
-                        Text("Discover Your Favorite ")
+                        Text("Order with Ease, Anytime,")
                             .foregroundColor(Color(AppColor.primary25.rawValue))
                             .font(.system(size: 27))
                             .fontWeight(.bold)
                             .padding(.leading)
                         
-                        Text("Flavors")
+                        Text("Anywhere")
                             .foregroundColor(Color(AppColor.primary25.rawValue))
                             .font(.system(size: 27))
                             .fontWeight(.bold)
                                     
-                        NavigationLink(destination: OnboardingView2()){
+                        NavigationLink(destination: OnboardingView3() ){
                             
                             Text("Next")
                                 .frame(width: 340 , height: 60)
@@ -52,6 +61,7 @@ struct OnboardingView: View {
                                 .fontWeight(.bold)
                         }
                         
+                        
                     }.padding(.trailing , -30)
                     
                 }
@@ -60,14 +70,13 @@ struct OnboardingView: View {
                 
 
             }
+            .navigationBarHidden(true)
 
-            
         }
-       
-       
+        
     }
 }
 
 #Preview {
-    OnboardingView()
+    OnboardingView2()
 }
